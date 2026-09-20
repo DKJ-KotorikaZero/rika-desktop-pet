@@ -2,7 +2,7 @@
 
 《寒蝉鸣泣之时》古手梨花的同人桌面宠物皮肤。深蓝长发、紫色眼睛、白衣绯袴，配有摸头回应、丰富待机和目光跟随。
 
-**[在线预览 · 摸摸梨花的头](https://dkj-kotorikazero.github.io/rika-desktop-pet/)** ·[下载宠物皮肤](rika-pet.zip) · [查看角色主图](rika-main.png)
+**[在线预览 · 摸摸梨花的头](https://dkj-kotorikazero.github.io/rika-desktop-pet/preview.html)** ·[下载宠物皮肤](rika-pet.zip) · [查看角色主图](rika-main.png)
 
 ## 动作展示
 
@@ -35,7 +35,7 @@
 
 ## 浏览器预览
 
-[打开在线预览](https://dkj-kotorikazero.github.io/rika-desktop-pet/)，在浏览器中体验全部动作与摸头互动。
+[打开在线预览](https://dkj-kotorikazero.github.io/rika-desktop-pet/preview.html)，在浏览器中体验全部动作与摸头互动。
 
 下载并解压整个仓库，双击 `index.html` 或 `preview.html` 即可预览。请保持页面与 `spritesheet.webp`、`original-actions.webp` 等素材文件位于同一目录。
 
