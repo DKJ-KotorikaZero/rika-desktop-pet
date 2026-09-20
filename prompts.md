@@ -355,3 +355,42 @@ Flat #00FF00 background or actual alpha; no key-colored character details, scene
 每组都以 Q 版基准锁定比例，主图只提供人物与服装参考。对修正后的沮丧动作，要求每帧角色占槽位宽度不超过 65%，留出宽间隔，避免长发相接。目光方向使用检查通过的四个主要方向作为基准，两组连续生成。生成的真实透明通道予以保留。
 
 用户随后要求增加摸头与待机变化。新增 idle-enriched 替换桌面皮肤待机，新增 headpat 替换桌面端由悬停触发的 jumping 槽位。原来的两组动画保留在 extras 中供预览页使用。16 个目光方向与默认中性姿态保持像素一致，复用已通过的方向检查。
+
+
+## sweeping — 网页闲置彩蛋
+
+Create one coherent 8-frame animation strip for the existing Rika Furude chibi pet. Match the attached canonical character and current idle cell exactly: long straight indigo hair with blunt bangs, violet eyes, white shrine-maiden kosode with wide sleeves, red hakama and front waist bow, white tabi and brown/red zori. Same face, head-to-body ratio, clean anime cel shading and full-body camera across all frames.
+
+Action: after being left alone she takes out a small traditional straw broom, quietly sweeps the floor, then puts it away. A warm, peaceful little shrine-maiden moment.
+
+Exactly EIGHT complete separated frames in ONE horizontal left-to-right row. Use the layout guide only for spacing; do not reproduce its lines, numbers or text. Keep all heads at the same height and all feet on one baseline; preserve character scale, facing and body placement. Leave generous space between poses. The broom handle must stay BELOW the top of her head and the straw must remain inside its own slot. Both hands grasp the handle naturally while sweeping; no detached broom pieces or extra limbs.
+
+Frame 1: still no broom; slight glance to the side and one hand reaching behind her hip.
+Frame 2: draws out the broom and holds it upright next to her, bristles at ground level, gentle attentive face.
+Frame 3: leans forward only a little, holding broom with BOTH hands, straw tip far toward screen-left at floor height, looks down at her work.
+Frame 4: same stance, broom tip moving across the ground to middle-left; coordinated elbows, sleeves and tiny hair sway.
+Frame 5: same stance, broom tip continuing to middle-right, calm concentrated face.
+Frame 6: same stance, broom tip far screen-right; these four sweep frames must form a smooth reversible left-right motion with an anatomically consistent two-handed grip.
+Frame 7: lifts the broom upright again, relaxes and gives a small closed-eye satisfied smile.
+Frame 8: broom completely put away behind her, hands together in the original resting pose, smile and body position ready to return to the idle reference.
+
+Output a wide sprite strip on perfectly uniform pure GREEN #00FF00 chroma background for deterministic removal. No green in the character or broom. Fully opaque character interiors. No scenery, ground plane, shadows, detached dust, sparkle particles, captions, guide marks, borders or additional people. Hair, sleeves, feet, broom handle and bristles must all be completely visible. Never crop a pose or let adjacent poses overlap. This is an animation family, not eight independent character redesigns.
+
+## wine-bottle — 网页闲置彩蛋
+
+Create one coherent EIGHT-frame animation strip for the existing Rika Furude chibi pet, preserving the attached canonical character and current idle cell: long straight indigo hair, blunt bangs, violet eyes, white shrine-maiden kosode with wide sleeves, red hakama and front waist bow, white tabi and brown/red zori. Identical face, proportions and anime cel-shaded rendering in every frame.
+
+The extra idle easter egg is: she picks up a sealed bottle of red grape wine, hugs it with both hands, looks at it, tilts her head with a small satisfied smile, then puts it back. The wine bottle has dark forest-green glass, a small plain burgundy label with a simple grape motif but NO letters, and a closed cork. It is a single consistent bottle no larger than her torso; always below her face. She only holds it; the cork stays closed, no drinking or intoxication.
+
+Exactly eight complete separate full-body poses in ONE horizontal row, left-to-right, on perfectly uniform pure GREEN #00FF00 background for deterministic removal. Layout guide is for spacing only, no guide pixels in output. Same body scale, head height, facing, ground baseline and compact centered placement across all frames. Include wide outer margins so the first and last poses are never cropped. The bottle is deep forest green, distinct from the pure green background; no fluorescent green on character or bottle.
+
+Frame 1: no bottle yet, glances down and reaches one hand just behind her hip.
+Frame 2: lifts the sealed wine bottle into view, both hands around its body, close to her waist.
+Frame 3: hugs the bottle against her chest below her chin, looking down at it with a soft smile.
+Frame 4: continues hugging it with both hands, head tilts a little toward screen-left and hair gently follows.
+Frame 5: head returns near center, eyes close for a pleased little smile, bottle stays upright and securely held.
+Frame 6: opens eyes and tilts head slightly toward screen-right while hugging the same bottle.
+Frame 7: lowers the bottle to her side to put it away, relaxed pose.
+Frame 8: bottle fully gone; both hands together in the original resting pose, looking forward and smiling, ready to rejoin the idle reference.
+
+Keep complete hair, sleeves, fingers, bottle, legs and feet inside each frame with generous empty spacing. No repeated unchanged middle poses, no extra limbs or floating props, no scenery, ground plane, shadows, detached hearts, sparkles, captions, labels, frames, text or blur. A coherent cute sprite animation family, not eight redesigns.
