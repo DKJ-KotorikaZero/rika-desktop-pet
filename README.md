@@ -35,7 +35,7 @@
 
 ## 浏览器预览
 
-下载并解压整个仓库，双击 `index.html` 或 `preview.html` 即可预览。请保持页面与 `rika-pet`、`extras` 两个文件夹位于同一目录。
+下载并解压整个仓库，双击 `index.html` 或 `preview.html` 即可预览。请保持页面与 `spritesheet.webp`、`original-actions.webp` 等素材文件位于同一目录。
 
 - 把鼠标移到梨花头上，或点击「摸摸头」体验互动。
 - 打开「跟随鼠标」查看不同方向的目光。
@@ -52,10 +52,10 @@
 | --- | --- |
 | `rika-main.png` | 神社夏夜主题角色主图 |
 | `rika-pet.zip` | 可直接下载的安装包 |
-| `rika-pet/` | 宠物配置与透明精灵图 |
+| `pet.json`、`spritesheet.webp` | 宠物配置与透明精灵图 |
 | `index.html`、`preview.html` | 交互预览页面 |
 | `idle.gif`、`headpat.gif`、`waving.gif` | README 动画展示 |
-| `extras/` | 预览使用的原版眨眼与跳跃素材 |
+| `original-actions.webp`、`idle-calm.gif`、`jumping-original.gif` | 原版眨眼与跳跃素材 |
 | `prompts.md` | 主图与动作素材的生成提示词 |
 
 ## 创作说明
